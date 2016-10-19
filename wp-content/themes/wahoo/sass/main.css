@@ -1,0 +1,293 @@
+#wrapper {
+  margin: 0 auto; }
+  #wrapper .container {
+    max-width: 1600px; }
+
+#header {
+  background: #303030; }
+  #header .row {
+    margin-top: 30px; }
+  #header .logo {
+    display: block;
+    float: left; }
+  #header .links {
+    display: block;
+    float: right; }
+  #header a {
+    display: block;
+    float: left;
+    margin-left: 10px; }
+  #header .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle; }
+  #header .fa-lg {
+    font-size: 30px; }
+  #header .fa-circle {
+    color: #ffffff; }
+  #header .fa-linkedin {
+    color: #303030; }
+  #header .fa-twitter {
+    color: #303030; }
+  #header h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 5px;
+    margin-left: 10px; }
+  #header nav {
+    background: #303030;
+    border: none; }
+  #header .navbar {
+    margin-bottom: 10px; }
+
+#home {
+  background: #303030; }
+  #home h1 {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 1.5; }
+  #home .robot {
+    display: block; }
+  #home .digital {
+    display: block;
+    padding-top: 110px;
+    padding-left: 80px; }
+  #home button {
+    width: 220px;
+    height: 90px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #db6189;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 20px 0 auto; }
+  #home button:hover {
+    background-color: #a23f5f; }
+  #home .btn-right {
+    margin-left: 40px; }
+
+#assignment .assign {
+  padding-top: 110px;
+  padding-bottom: 100px !important; }
+  #assignment .assign h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 20px auto 20px;
+    font-weight: bold; }
+  #assignment .assign p {
+    text-align: center;
+    letter-spacing: 2px; }
+
+#candidates {
+  border-top: 1px solid;
+  border-color: #d0d0d0;
+  padding-top: 110px; }
+  #candidates h3 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 20px auto 20px;
+    font-weight: bold; }
+  #candidates p {
+    text-align: center;
+    letter-spacing: 2px; }
+  #candidates .faces {
+    padding-top: 100px; }
+  #candidates .face {
+    vertical-align: bottom; }
+
+#service {
+  background-color: #db6189;
+  margin-top: 80px;
+  padding-top: 80px; }
+  #service h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-weight: bold; }
+  #service .serv {
+    margin-top: 110px; }
+  #service img {
+    max-height: 150px;
+    display: block; }
+  #service p {
+    text-align: center;
+    line-height: 2;
+    color: #ffffff;
+    padding-top: 40px;
+    margin-bottom: 100px !important; }
+
+#team {
+  padding-top: 100px; }
+  #team img {
+    display: block;
+    max-height: 100px; }
+  #team .team-name {
+    color: #303030;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin: 20px auto 10px; }
+  #team .team-title {
+    color: #a4a4a4;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    margin: 10px auto 10px; }
+  #team .team-description {
+    text-align: center;
+    line-height: 2;
+    color: #303030;
+    padding-top: 30px;
+    margin-bottom: 100px !important; }
+  #team button {
+    width: 170px;
+    height: 70px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #db6189;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto; }
+  #team button:hover {
+    background-color: #a23f5f; }
+  #team button a {
+    color: #ffffff; }
+  #team .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle; }
+  #team .fa-lg {
+    font-size: 30px; }
+  #team .fa-circle {
+    color: #ffffff; }
+  #team .fa-linkedin {
+    color: #db6189; }
+
+#clients {
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  border-top: 1px solid;
+  padding-top: 30px;
+  border-color: #d0d0d0; }
+  #clients h3 {
+    color: #303030;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    padding: 40px;
+    font-weight: bold; }
+  #clients .closed {
+    float: right; }
+  #clients .client-name {
+    padding-top: 40px;
+    color: #db6189;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+#footer {
+  padding-top: 60px;
+  background-color: #303030;
+  color: #adadad; }
+  #footer h5 {
+    text-transform: uppercase;
+    font-weight: bold; }
+  #footer .imp {
+    font-weight: normal; }
+  #footer ul {
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    list-style-type: none;
+    line-height: 2; }
+  #footer li a {
+    color: #adadad; }
+  #footer .form-horizontal {
+    padding-top: 30px; }
+    #footer .form-horizontal p {
+      text-align: center;
+      font-weight: bold;
+      font-size: small; }
+  #footer .form-group {
+    padding-top: 10px; }
+  #footer .form-control {
+    height: 50px;
+    background-color: transparent;
+    border-color: #adadad; }
+  #footer button {
+    height: 50px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #db6189;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold; }
+  #footer button:hover {
+    background-color: #a23f5f; }
+  #footer button a {
+    color: #ffffff; }
+
+#copyright {
+  background-color: #232323;
+  padding-top: 25px;
+  padding-bottom: 30px; }
+  #copyright .logo {
+    float: left; }
+  #copyright .rights {
+    float: right;
+    display: block;
+    color: #adadad;
+    font-size: small;
+    height: 60px; }
+    #copyright .rights p {
+      vertical-align: middle;
+      padding-top: 30px; }
+
+/*
+
+#exp .row-flex, .row-flex > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 1 auto;
+}
+
+#exp .row-flex-wrap {
+  -webkit-flex-flow: row wrap;
+  flex:0;
+}
+
+#exp .row-flex > div[class*='col-'] {
+  margin:-.2px; 
+}
+#exp .well{
+  float: left;
+  position: relative;
+}
+#exp button{
+  position: absolute;
+  margin: 0 auto;
+}
+*/
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,413 @@
+$dark: #303030;
+$pink: #db6189;
+$coral: #a23f5f;
+$white: #ffffff;
+$gray: #adadad;
+
+
+
+#wrapper {
+  margin: 0 auto;
+
+  .container {
+    max-width: 1600px;
+  }
+}
+#header {
+  background: $dark;
+
+   .row {
+    margin-top: 30px;
+  }
+
+   .logo {
+    display: block;
+    float: left;
+  }
+  .links {
+    display: block;
+    float: right;
+  }
+  a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+  }
+  .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+  }
+  .fa-lg {
+    font-size: 30px;
+  }
+  .fa-circle {
+    color: $white;
+  }
+  .fa-linkedin {
+    color: $dark;
+  }
+  .fa-twitter {
+    color: $dark;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: $white;
+    letter-spacing: 5px;
+    margin-left: 10px;
+  }
+
+  nav {
+    background: $dark;
+    border: none;
+  }
+  .navbar {
+    margin-bottom: 10px;
+  }
+}
+#home {
+  background: $dark;
+
+  h1 {
+    color: $white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .robot {
+    display: block;
+  }
+
+  .digital {
+    display: block;
+    padding-top: 110px;
+    padding-left: 80px;
+  }
+
+  button {
+    width: 220px;
+    height: 90px;
+    font-size: 14px;
+    color: $white;
+    background: $pink;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 20px 0 auto;
+  }
+  button:hover {
+    background-color: $coral;
+  }
+  .btn-right {
+    margin-left: 40px;
+  }
+}
+#assignment .assign {
+  padding-top: 110px;
+  padding-bottom: 100px !important;
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 20px auto 20px;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+    letter-spacing: 2px;
+  }
+}
+#candidates {
+  border-top: 1px solid;
+  border-color: #d0d0d0;
+  padding-top: 110px;
+
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 20px auto 20px;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .faces {
+    padding-top: 100px;
+  }
+
+  .face {
+    vertical-align: bottom;
+  }
+}
+
+
+
+#service {
+  background-color: $pink;
+  margin-top: 80px;
+  padding-top: 80px;
+
+  h3 {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  .serv {
+    margin-top: 110px;
+  }
+  img {
+    max-height: 150px;
+    display: block;
+
+  }
+  p {
+    text-align: center;
+    line-height: 2;
+    color: $white;
+    padding-top: 40px;
+    margin-bottom: 100px !important;
+  }
+}
+#team {
+  padding-top: 100px;
+
+  img {
+    display: block;
+    max-height: 100px;
+  }
+  .team-name {
+    color: #303030;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin: 20px auto 10px;
+  }
+  .team-title {
+    color: #a4a4a4;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    margin: 10px auto 10px;
+  }
+  .team-description {
+    text-align: center;
+    line-height: 2;
+    color: #303030;
+    padding-top: 30px;
+    margin-bottom: 100px !important;
+  }
+  button {
+    width: 170px;
+    height: 70px;
+    font-size: 14px;
+    color: $white;
+    background: $pink;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+  }
+  button:hover {
+    background-color: $coral;
+  }
+  button a {
+    color: $white;
+  }
+  .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+  }
+  .fa-lg {
+    font-size: 30px;
+  }
+  .fa-circle {
+    color: $white;
+
+  }
+  .fa-linkedin {
+    color: $pink;
+  }
+}
+
+#clients {
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  border-top: 1px solid;
+  padding-top: 30px;
+  border-color: #d0d0d0;
+
+  h3 {
+    color: $dark;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    padding: 40px;
+    font-weight: bold;
+  }
+  .closed {
+    float: right;
+  }
+  .client-name {
+    padding-top: 40px;
+    color: $pink;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+#footer {
+  padding-top: 60px;
+  background-color: $dark;
+  color: $gray;
+
+
+  h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .imp {
+    font-weight: normal;
+  }
+
+  ul{
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    list-style-type: none;
+    line-height: 2;
+  }
+  li a{
+    color: $gray;
+  }
+  .form-horizontal{
+    padding-top: 30px ;
+    p{
+      text-align: center;
+      font-weight: bold;
+      font-size: small;
+    }
+  }
+  .form-group{
+    padding-top: 10px;
+  }
+  .form-control{
+    height: 50px;
+    background-color: transparent;
+    border-color: $gray;
+  }
+
+  button {
+    height: 50px;
+    font-size: 14px;
+    color: $white;
+    background: $pink;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: $coral;
+  }
+  button a {
+    color: $white;
+  }
+
+}
+#copyright{
+  background-color: #232323 ;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  .logo{
+    float: left;
+  }
+  .rights{
+    float: right;
+    display: block;
+    color: $gray;
+    font-size: small;
+    height: 60px;
+    p{
+      vertical-align: middle;
+      padding-top: 30px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+#exp .row-flex, .row-flex > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 1 auto;
+}
+
+#exp .row-flex-wrap {
+  -webkit-flex-flow: row wrap;
+  flex:0;
+}
+
+#exp .row-flex > div[class*='col-'] {
+  margin:-.2px;
+}
+#exp .well{
+  float: left;
+  position: relative;
+}
+#exp button{
+  position: absolute;
+  margin: 0 auto;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
